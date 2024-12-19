@@ -117,6 +117,7 @@ ol {
 }
 
 .search-form {
+  margin-bottom: 2px;
   display: flex;
   gap: 40px;
   align-items: start;
@@ -249,7 +250,7 @@ ol {
 .title {
   font-family: Oswald, sans-serif;
   font-size: 75px;
-  line-height: 9%;
+  line-height: 93%;
   text-transform: uppercase;
 }
 
