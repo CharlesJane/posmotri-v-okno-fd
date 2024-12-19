@@ -106,7 +106,7 @@ ol {
 
 .result__video-container {
   position: relative;
-  margin-bottom: 15px;
+  margin-bottom: 17px;
   height: 386px;
 }
 
@@ -117,7 +117,6 @@ ol {
 }
 
 .search-form {
-  margin-bottom: 2px;
   display: flex;
   gap: 40px;
   align-items: start;
@@ -129,7 +128,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  margin-bottom: 4px;
+  margin-bottom: 3px;
   font-weight: 400;
   font-size: 18px;
 }
@@ -252,6 +251,7 @@ ol {
   font-size: 75px;
   line-height: 93%;
   text-transform: uppercase;
+  padding-top: 4px;
 }
 
 .content__accent {
