@@ -52,9 +52,9 @@ ol {
   background-color: transparent;
   padding: 5px 0;
   border: 1px solid #fff;
-  color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-size: 18px;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
   font-weight: 700;
 }
 
@@ -129,8 +129,8 @@ ol {
 
 .search-form__fieldset-title {
   margin-bottom: 3px;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: inherit;
+  font-size: inherit;
 }
 
 .search-form__label {
@@ -150,14 +150,9 @@ ol {
   border-right: none;
   padding: 2px 0;
   width: 225px;
-  font-size: 18px;
-  font-family: "Fira Sans Condensed", sans-serif;
-  caret-color: #fff;
-  color: #fff;
-}
-
-.search-form__textfield::placeholder {
-  color: rgba(255, 255, 255 / 70%);
+  font-size: inherit;
+  font-family: inherit;
+  color: inherit;
 }
 
 .search-form__textfield:hover {
