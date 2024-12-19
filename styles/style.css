@@ -120,6 +120,7 @@ ol {
 }
 
 .search-form {
+  margin-bottom: 2px;
   display: flex;
   gap: 40px;
   align-items: start;
@@ -151,7 +152,7 @@ ol {
   border: 1px solid #fff;
   border-left: none;
   border-right: none;
-  padding: 2px 0;
+  padding: 2px 1px;
   width: 225px;
   font-size: inherit;
   font-family: inherit;
@@ -248,7 +249,7 @@ ol {
 .title {
   font-family: Oswald, sans-serif;
   font-size: 75px;
-  line-height: 93%;
+  line-height: 94%;
   text-transform: uppercase;
   padding-top: 4px;
 }
