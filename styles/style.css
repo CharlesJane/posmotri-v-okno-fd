@@ -109,7 +109,7 @@ ol {
 
 .result__video-container {
   position: relative;
-  margin-bottom: 17px;
+  margin-bottom: 19px;
   height: 386px;
 }
 
@@ -169,11 +169,6 @@ ol {
 
 .search-form__textfield:focus {
   outline: none;
-}
-
-.search-form__label:has(:focus-visible) {
-  outline: 1px solid #fff;
-  outline-offset: 1px;
 }
 
 .search-form__label:has(:focus-visible) {
