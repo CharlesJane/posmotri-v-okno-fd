@@ -87,6 +87,7 @@ ol {
 }
 
 .result__video-container {
+  position: relative;
   margin-bottom: 16px;
   height: 386px;
 }
@@ -207,6 +208,7 @@ ol {
 }
 
 .content__list {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 30px;
