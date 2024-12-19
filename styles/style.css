@@ -49,6 +49,9 @@ ol {
 }
 
 .button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background-color: transparent;
   padding: 5px 0;
   border: 1px solid #fff;
@@ -66,6 +69,7 @@ ol {
 
 .button:active {
   background-color: #545050;
+  text-decoration: none;
 }
 
 .button:focus {
@@ -95,7 +99,6 @@ ol {
   display: inline-grid;
   align-items: end;
   grid-template-columns: 711px 399px;
-  grid-template-rows: 534px;
   gap: 30px;
   grid-template-areas: "result details";
 }
@@ -155,21 +158,22 @@ ol {
   color: inherit;
 }
 
-.search-form__textfield:hover {
-  cursor: text;
-}
-
 .search-form__label:hover {
   cursor: pointer;
 }
 
-.search-form__textfield:active {
+.search-form__label:active .search-form__textfield {
   outline: 1px solid #fff;
   outline-offset: -1px;
 }
 
 .search-form__textfield:focus {
   outline: none;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
 }
 
 .search-form__label:has(:focus-visible) {
@@ -226,6 +230,11 @@ ol {
   cursor: pointer;
 }
 
+.search-form__label:active > .search-form__label-text {
+  text-decoration: none;
+  cursor: pointer;
+}
+
 .search-form__submit-button {
   height: 34px;
   width: 194px;
@@ -264,7 +273,6 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  margin-bottom: 30px;
 }
 
 .content__card-link {
@@ -291,6 +299,11 @@ ol {
   text-decoration: underline;
   text-underline-offset: 2px;
   cursor: pointer;
+}
+
+.content__card-link:active {
+  background-color: #545050;
+  text-decoration: none;
 }
 
 .content__video-card-title {
@@ -323,4 +336,5 @@ ol {
 
 .more-button {
   width: 100%;
+  margin-bottom: 30px;
 }
